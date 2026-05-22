@@ -1,0 +1,8 @@
+$ python3
+Python 3.14.5 (default, May 21 2026, 20:30:00)
+[Clang 15.0.0] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+'{\n  "emotionPredictions": [\n    {\n      "emotion": {\n        "anger": 0.010234,\n        "disgust": 0.005123,\n        "fear": 0.008456,\n        "joy": 0.954612,\n        "sadness": 0.021578\n      },\n      "target": "",\n      "emotionMentions": []\n    }\n  ]\n}'
+>>> 
